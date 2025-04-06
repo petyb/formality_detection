@@ -29,4 +29,9 @@ Install the requirements by running:
 ```bash
 pip install -r requirements.txt
 ```
-Now you can start the Jupyter Notebook and run the code
+Now you can run Jupyter Notebook
+
+In case Jupyter does not detect your environment automatically, run this:
+```bash
+python -m ipykernel install --user --name=venv --display-name "venv"
+```
